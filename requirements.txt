@@ -1,0 +1,8 @@
+bardapi==0.1.3
+chatGPT==0.10.4
+ChatGPT_Wrapper @ git+https://github.com/SmartManoj/ChatGPT-Wrapper
+PyAutoGUI==0.9.53
+PyMsgBox==1.0.9
+pynput==1.7.6
+pyperclip==1.8.2
+python-dotenv==1.0.0
