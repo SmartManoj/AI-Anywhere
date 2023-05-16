@@ -3,5 +3,11 @@
 
 
 
-https://github.com/SmartManoj/AI-Anywhere/assets/7231077/6d5121a9-4f49-428e-af69-d13da326a8c9
+ 
+ 
+##Demo
+
+In browser console, type the query and press ctrl+z. Now the equivalent ChatGPT response is generated within the console itself.
+
+https://github.com/SmartManoj/AI-Anywhere/assets/7231077/e194871f-c2c6-44c7-a8ef-882357a0db7d
 
