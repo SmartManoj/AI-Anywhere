@@ -32,9 +32,12 @@ def beep():
 def process():
     beep()
     old_content = paste()
-    hotkey('ctrl', 'a')
-    hotkey('ctrl', 'c')
-    new_content = paste()
+    for _ in range(1):
+        hotkey('ctrl', 'c')
+        new_content = paste()
+        if new_content != old_content:
+            break
+        hotkey('ctrl', 'a')
 
     response = send_msg(new_content).split('Output: ')[-1].strip()
     print(response)
