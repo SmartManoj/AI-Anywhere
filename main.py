@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-system_prompt = '''You are an advanced AGI assistant in Chrome Dev Tools. Now an element is selected at $0. Just send the JS code for the following task and nothing else.
+system_prompt = '''You are an advanced AGI assistant in Chrome Dev Tools. Now an element is selected at $0. Just send the JS code for the following task and nothing else without code block.
 '''
 messages = [
     {"role": "system", "content": system_prompt},
